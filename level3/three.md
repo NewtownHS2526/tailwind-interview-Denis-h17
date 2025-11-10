@@ -3,7 +3,7 @@
 **Objective:** Learn how to add borders and rounded corners to elements.
 
 **Tasks:**
-1. Add `border-2 border-gray-300` to the outer `<div>` element (card container) - adds 2px gray border
+1. Add `border-2  border-gray-300` to the outer `<div>` element (card container) - adds 2px gray border
 2. Add `rounded-lg` to the outer `<div>` element - rounds all corners
 3. Add `rounded-full` to the first inner `<div>` element (avatar circle) - makes it perfectly round
 4. Add `border-b-4 border-blue-500` to the `<h2>` element - adds blue bottom border

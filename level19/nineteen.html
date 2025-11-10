@@ -11,7 +11,18 @@
         @tailwind utilities;
         
         /* Create your interactive classes here using @apply */
-        
+        .btn-interactive {
+             @apply bg-blue-500 text-white px-6 py-3 rounded-lg; 
+             @apply hover:bg-blue-600 focus:ring-2 focus:ring-blue-500 focus:outline-none;
+        }
+        .link-hover {
+             @apply text-blue-500 underline; 
+             @apply hover:text-blue-700;
+        }
+        .input-focus {
+             @apply border-2 border-gray-300 rounded-lg px-4 py-2 w-full; 
+             @apply focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200;
+        }
     </style>
 </head>
 <body class="p-8 bg-gray-100">
